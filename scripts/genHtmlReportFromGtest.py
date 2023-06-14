@@ -6,7 +6,7 @@
 import sys, os, re, shutil, os.path, glob
 sys.dont_write_bytecode = True
 from xml.dom.minidom import *
-from traverseCollection_Py3 import *
+from traverseCollection import *
 
 # Substitute html-texts
 okIconText = '''<img src="gtest_report_ok.png" alt="ok icon" style="width:16px;height:16px;">'''
